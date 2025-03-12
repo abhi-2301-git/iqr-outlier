@@ -1,9 +1,0 @@
-# Ignore build artifacts
-dist/
-build/
-iqr_outlier.egg-info/
-
-# Ignore Python cache
-__pycache__/
-*.pyc
-*.pyo
