@@ -6,7 +6,7 @@ with open("README.md", "r", encoding="utf-8") as f:
 setup(
     name="iqr_outlier",
     version="0.1.3",
-    packages=find_packages(),
+    packages=["iqr_outlier"],
     install_requires=["pandas", "numpy"],
     description="A library to detect and remove outliers using IQR.",
     long_description=long_description,
